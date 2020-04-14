@@ -1,0 +1,12 @@
+.dropdown select {
+    width: 100%;
+    font-weight: 300;
+    background-color: var(--dropdown-background-color);
+    border: 1px solid var(--form-element-border-color);
+    border-radius: var(--form-element-border-radius);
+    padding: 15px 10px;
+}
+
+.dropdown select option {
+    font-weight: 300;
+}

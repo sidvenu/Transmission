@@ -1,0 +1,31 @@
+section#project {
+  min-height: 100vh;
+  padding-top: 20px;
+}
+
+section#project form {
+  width: 75vw;
+}
+
+section#project label {
+  display: block;
+  font-weight: 400;
+  margin: 20px 0 10px 0;
+}
+
+section#project div {
+  width: 100%;
+}
+
+section#project div.three-input-group div {
+  width: 30%;
+}
+
+section#project div.three-input-group.flex-container {
+  justify-content: space-between;
+}
+
+section#project #submit {
+  margin: 20px auto;
+  width: fit-content;
+}

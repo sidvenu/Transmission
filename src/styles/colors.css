@@ -1,0 +1,25 @@
+:root {
+  /* color palette */
+  --primary-color: #e65100;
+  --primary-dark-color: #bf360c;
+
+  /* colors used in components and pages */
+  --navbar-background-color: white;
+  --navbar-text-color: black;
+  --navbar-text-highlight-color: var(--primary-dark-color);
+
+  --button-text-color: white;
+  --button-background-color: var(--primary-color);
+
+  --outline-button-text-color: var(--primary-dark-color);
+  --outline-button-background-color: white;
+  --outline-button-border-color: var(--primary-color);
+
+  --heading1-text-color: black;
+  --heading2-text-color: var(--primary-color);
+
+  --dropdown-background-color: white;
+  --form-element-border-color: black;
+
+  --input-disabled-background: #757575;
+}

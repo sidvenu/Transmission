@@ -1,0 +1,50 @@
+/* normalizes the CSS across browsers */
+@import url("../../node_modules/normalize.css/normalize.css");
+
+/* fonts used in show-off */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+/* material icons by google */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+/* colors used in the page */
+@import url("./colors.css");
+
+/* dimensions used in the page */
+@import url("./dimen.css");
+
+/* sets the gatsby wrappers' dimensions to 100% to make use of the whole screen */
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html,
+button,
+a.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.direction-row {
+  flex-direction: row;
+}
+
+.direction-column {
+  flex-direction: column;
+}

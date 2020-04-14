@@ -1,0 +1,12 @@
+input {
+  width: 100%;
+  padding: 15px 10px;
+  box-sizing: border-box;
+  border: 1px solid var(--form-element-border-color);
+  border-radius: var(--form-element-border-radius);
+}
+
+input.disabled {
+  background: var(--input-disabled-background);
+  color: var(--input-disabled-background);
+}
